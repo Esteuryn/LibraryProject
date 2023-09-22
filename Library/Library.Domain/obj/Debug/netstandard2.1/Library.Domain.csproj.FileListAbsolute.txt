@@ -1,0 +1,9 @@
+C:\Myproject\ItlaLibrary\Library\Library.Domain\bin\Debug\netstandard2.1\Library.Domain.deps.json
+C:\Myproject\ItlaLibrary\Library\Library.Domain\bin\Debug\netstandard2.1\Library.Domain.dll
+C:\Myproject\ItlaLibrary\Library\Library.Domain\bin\Debug\netstandard2.1\Library.Domain.pdb
+C:\Myproject\ItlaLibrary\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Myproject\ItlaLibrary\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.AssemblyInfoInputs.cache
+C:\Myproject\ItlaLibrary\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.AssemblyInfo.cs
+C:\Myproject\ItlaLibrary\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.csproj.CoreCompileInputs.cache
+C:\Myproject\ItlaLibrary\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.dll
+C:\Myproject\ItlaLibrary\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.pdb
