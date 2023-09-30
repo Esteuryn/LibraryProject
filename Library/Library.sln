@@ -17,15 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ioc", "Ioc", "{80E5C320-5C2C-4DC3-8F88-0C80273B2AEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Application", "Library.Application\Library.Application.csproj", "{9DBA0D61-6215-4B5E-B163-F8A54E50012A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Application", "Library.Application\Library.Application.csproj", "{9DBA0D61-6215-4B5E-B163-F8A54E50012A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Infrastructure", "Library.Infrastructure\Library.Infrastructure.csproj", "{DC5CB9FB-713C-4BB7-A88C-93C1CA66F017}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Infrastructure", "Library.Infrastructure\Library.Infrastructure.csproj", "{DC5CB9FB-713C-4BB7-A88C-93C1CA66F017}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Ioc", "Library.Ioc\Library.Ioc.csproj", "{DAD270F7-468C-4AD2-A00E-CD1EB3E81D8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Ioc", "Library.Ioc\Library.Ioc.csproj", "{DAD270F7-468C-4AD2-A00E-CD1EB3E81D8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Web", "Library.Web\Library.Web.csproj", "{45488534-9941-415F-A7E9-7FD198EE1C87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Web", "Library.Web\Library.Web.csproj", "{45488534-9941-415F-A7E9-7FD198EE1C87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Api", "Library.Api\Library.Api.csproj", "{533FBE00-B7A2-4758-A454-27BC63DC5216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Api", "Library.Api\Library.Api.csproj", "{533FBE00-B7A2-4758-A454-27BC63DC5216}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Myproject\\ItlaLibrary\\Library\\Library.Web\\Library.Web.csproj": {}
+    "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Web\\Library.Web.csproj": {}
   },
   "projects": {
-    "C:\\Myproject\\ItlaLibrary\\Library\\Library.Web\\Library.Web.csproj": {
+    "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Web\\Library.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Myproject\\ItlaLibrary\\Library\\Library.Web\\Library.Web.csproj",
+        "projectUniqueName": "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Web\\Library.Web.csproj",
         "projectName": "Library.Web",
-        "projectPath": "C:\\Myproject\\ItlaLibrary\\Library\\Library.Web\\Library.Web.csproj",
+        "projectPath": "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Web\\Library.Web.csproj",
         "packagesPath": "C:\\Users\\ESTGURYN\\.nuget\\packages\\",
-        "outputPath": "C:\\Myproject\\ItlaLibrary\\Library\\Library.Web\\obj\\",
+        "outputPath": "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
