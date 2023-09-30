@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3JbIN1C+KPEJltrE4FR5IK4Zq8S6oFwNQC7tlOenbkA+wETIDsLak84fnfq4iLdV2oJkKBmAHSJFac7HNRnVeA==",
+  "dgSpecHash": "HY3cOm/qyi76nJDRrIMIrrXb/o9Ci112Y4KEnNskMpv6Z8SQ1ve9RNWoa92QJ6VfWALN8LhJTvs7bRhphb7omg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Ioc\\Library.Ioc.csproj",
+  "projectFilePath": "C:\\LibraryProject\\Library\\Library.Ioc\\Library.Ioc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
