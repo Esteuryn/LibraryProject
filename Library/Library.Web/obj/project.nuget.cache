@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rc6ywDZ29g6Z2cqcOlPql0itMQZ5SV48MyG+fkxEigHuTUQWzbJ8PV8hta9hBwZuJsnghVS47fStFnP5VBCa6w==",
+  "dgSpecHash": "KGLCLqRBnHXZT/2PyECtXxlUeyVpOtlQovHPo1gfO5qs0TkURnTDE/GPvaB9j3/4dnze6kzXiw3rNbmwrGlueA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Web\\Library.Web.csproj",
+  "projectFilePath": "C:\\LibraryProject\\Library\\Library.Web\\Library.Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
