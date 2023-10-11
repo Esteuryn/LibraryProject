@@ -12,7 +12,6 @@ namespace Library.Infrastructure.Context
         {
 
         }
-
         public DbSet<NumeroCorrelativo> numeroCorrelativos { get; set; }
     }
 }
