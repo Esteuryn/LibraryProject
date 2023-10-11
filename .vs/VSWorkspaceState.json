@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Library",
+    "\\Library\\Library.Domain",
+    "\\Library\\Library.Domain\\Repository"
   ],
-  "SelectedNode": "\\Library.sln",
+  "SelectedNode": "\\Library\\Library.Domain\\Repository\\IBaseRepository.cs",
   "PreviewInSolutionExplorer": false
 }
