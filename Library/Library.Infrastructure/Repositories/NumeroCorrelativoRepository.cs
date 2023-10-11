@@ -2,50 +2,76 @@
 using Library.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Library.Infrastructure.Repositories
 {
-    internal class NumeroCorrelativoRepository : INumeroCorrelativoRepository
+    public class NumeroCorrelativoRepository : INumeroCorrelativoRepository
     {
-        public void ActualizarUltimoNumero(int idNumeroCorrelativo, int nuevoUltimoNumero)
-        {
-            throw new NotImplementedException();
-        }
+        private List<NumeroCorrelativo> numeroCorrelativos; 
 
-        public List<NumeroCorrelativo> GetEntities()
+        public NumeroCorrelativoRepository()
         {
-            throw new NotImplementedException();
-        }
-
-        public NumeroCorrelativo GetEntity(int id)
-        {
-            throw new NotImplementedException();
+            
+            numeroCorrelativos = new List<NumeroCorrelativo>();
         }
 
         public NumeroCorrelativo GetNumeroCorrelativoPorTipo(string tipo)
         {
-            throw new NotImplementedException();
+           
+            return numeroCorrelativos.FirstOrDefault(nc => nc.Tipo == tipo);
+        }
+
+        public void ActualizarUltimoNumero(int idNumeroCorrelativo, int nuevoUltimoNumero)
+        {
+           
+            NumeroCorrelativo correlativo = numeroCorrelativos.FirstOrDefault(nc => nc.IdNumeroCorrelativo == idNumeroCorrelativo);
+            if (correlativo != null)
+            {
+                correlativo.UltimoNumero = nuevoUltimoNumero;
+            }
+        }
+
+        public List<NumeroCorrelativo> GetEntities()
+        {
+            
+            return numeroCorrelativos;
+        }
+
+        public NumeroCorrelativo GetEntity(int id)
+        {
+           
+            return numeroCorrelativos.FirstOrDefault(nc => nc.IdNumeroCorrelativo == id);
         }
 
         public List<NumeroCorrelativo> ObtenerNumerosCorrelativosActivos()
         {
-            throw new NotImplementedException();
+            
+            return numeroCorrelativos.Where(nc => nc.Estado).ToList();
         }
 
         public void Remove(NumeroCorrelativo entity)
         {
-            throw new NotImplementedException();
+            
+            numeroCorrelativos.Remove(entity);
         }
 
         public void Save(NumeroCorrelativo entity)
         {
-            throw new NotImplementedException();
+           
+            numeroCorrelativos.Add(entity);
         }
 
         public void Update(NumeroCorrelativo entity)
         {
-            throw new NotImplementedException();
+            
+            NumeroCorrelativo existingCorrelativo = numeroCorrelativos.FirstOrDefault(nc => nc.IdNumeroCorrelativo == entity.IdNumeroCorrelativo);
+            if (existingCorrelativo != null)
+            {
+                existingCorrelativo = entity;
+            }
         }
     }
+
 }
