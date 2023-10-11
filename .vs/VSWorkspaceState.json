@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Library",
+    "\\Library\\Library.Domain",
+    "\\Library\\Library.Domain\\Repository",
+    "\\Library\\Library.Infrastructure",
+    "\\Library\\Library.Infrastructure\\Repositories"
   ],
-  "SelectedNode": "\\Library.sln",
+  "SelectedNode": "\\Library\\Library.Infrastructure\\Repositories\\UsuarioRepertory.cs",
   "PreviewInSolutionExplorer": false
 }
