@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WwD0tRFY1zC9wqc9aRElpJwuP9TDtSlTgPylnD6bFOIbnyhiwB4PYyX+1AlYaFKjiWXXP/0FFCXhEErXVTOi5w==",
+  "dgSpecHash": "2MyxTn6LKr0e45e2OB3b6XCg/ccEsfl9fkQ3NXzGOj4xSpWVJzRJCpFzEsOzd/DiJstl29O2eMlQUDHyKPHDzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Infrastructure\\Library.Infrastructure.csproj",
+  "projectFilePath": "C:\\MyProject\\Library\\Library.Infrastructure\\Library.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ESTGURYN\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ESTGURYN\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

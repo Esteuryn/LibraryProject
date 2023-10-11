@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZPxUrQPCJ4bhqzLE+K1MH1lkBWRwvXWsmi/aUxpZJ50CTkBemclbHfoHak7dbwC+BBH5lhppcq2csPBUuT4DGQ==",
+  "dgSpecHash": "DviGsIjV3xTO+v457scdxCVBYe5Jc75I/zak8QQJ0s/aILqqW/HbaIxqXssq/T47XkbtkNT1X1rLevWO/8EdFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Api\\Library.Api.csproj",
+  "projectFilePath": "C:\\MyProject\\Library\\Library.Api\\Library.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ESTGURYN\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\ESTGURYN\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
