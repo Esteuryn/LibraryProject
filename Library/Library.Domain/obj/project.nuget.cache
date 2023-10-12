@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yyh0ODOSllFaWJ3p25qYpwVxePgM3WC/QbRty+/XOWCQqntpvN29bTCJ+CyL1W86YVfzJOPpVwzOcPx64Mkxqw==",
+  "dgSpecHash": "4bi2tvBPM0tU9PPFxhgKxDZDVcRId/7t0IJm/oo/tn9YhZBj4CeZtWVfYlz/qMIEFgCrPVFnGJaElrN+TP0dNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Domain\\Library.Domain.csproj",
+  "projectFilePath": "C:\\MyProject\\Library\\Library.Domain\\Library.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

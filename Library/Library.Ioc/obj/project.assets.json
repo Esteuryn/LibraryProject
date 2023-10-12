@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Ioc\\Library.Ioc.csproj",
+      "projectUniqueName": "C:\\MyProject\\Library\\Library.Ioc\\Library.Ioc.csproj",
       "projectName": "Library.Ioc",
-      "projectPath": "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Ioc\\Library.Ioc.csproj",
+      "projectPath": "C:\\MyProject\\Library\\Library.Ioc\\Library.Ioc.csproj",
       "packagesPath": "C:\\Users\\ESTGURYN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ESTGURYN\\Source\\Repos\\LibraryProject\\Library\\Library.Ioc\\obj\\",
+      "outputPath": "C:\\MyProject\\Library\\Library.Ioc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
