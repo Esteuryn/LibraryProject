@@ -25,13 +25,13 @@ namespace Library.Infrastructure.Repositories
 
         public void CambiarEstadoUsuario(int idUsuario, bool nuevoEstado)
         {
-           
             Usuario usuario = usuarios.FirstOrDefault(u => u.idUsuario == idUsuario);
             if (usuario != null)
             {
-                usuario.esActivo = nuevoEstado.ToString();
+                usuario.esActivo = nuevoEstado;
             }
         }
+
 
         public List<Usuario> GetEntities()
         {
@@ -53,9 +53,9 @@ namespace Library.Infrastructure.Repositories
 
         public List<Usuario> GetUsuariosActivos()
         {
-            
-            return usuarios.Where(u => u.esActivo == "true").ToList();
+            return usuarios.Where(u => u.esActivo).ToList();
         }
+
 
         public void Remove(Usuario entity)
         {
