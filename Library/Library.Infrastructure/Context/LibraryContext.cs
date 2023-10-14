@@ -6,11 +6,11 @@ using System.Text;
 
 namespace Library.Infrastructure.Context
 {
-    public class LibraryContext : DbContext
+    public class BibliotecaContext : DbContext
     {
-        public LibraryContext(DbContextOptions<LibraryContext> options) : base(options)
+        public BibliotecaContext(DbContextOptions<BibliotecaContext> options) : base(options)
         {
-
+           
         }
         public DbSet<NumeroCorrelativo> numeroCorrelativos { get; set; }
     }
