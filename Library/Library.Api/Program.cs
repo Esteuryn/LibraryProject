@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 
 // Dependencia del contexto
 
-builder.Services.AddDbContext<BibliotecaContext>(options => options.UseSqlServer(""));
+builder.Services.AddDbContext<BibliotecaContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("BibliotecaContext")));
 // Dependencia de los repositorios
 builder.Services.AddTransient<INumeroCorrelativoRepository, NumeroCorrelativoRepository>();
 
