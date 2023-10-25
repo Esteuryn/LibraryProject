@@ -7,6 +7,6 @@
     "\\Library\\Library.Infrastructure",
     "\\Library\\Library.Infrastructure\\Repositories"
   ],
-  "SelectedNode": "\\Library\\Library.Infrastructure\\Library.Infrastructure.csproj",
+  "SelectedNode": "\\Library\\Library.Infrastructure\\Repositories\\NumeroCorrelativoRepository.cs",
   "PreviewInSolutionExplorer": false
 }

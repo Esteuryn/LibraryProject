@@ -72,7 +72,7 @@ namespace Library.Infrastructure.Repositories
         }
 
         public List<NumeroCorrelativo> GetEntities()
-        {
+        { 
             return context.numeroCorrelativos.ToList();
         }
 
