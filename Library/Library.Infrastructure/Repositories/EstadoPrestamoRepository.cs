@@ -4,6 +4,7 @@ using Library.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace Library.Infrastructure.Repositories
@@ -15,6 +16,11 @@ namespace Library.Infrastructure.Repositories
         public EstadoPrestamoRepository(LibraryContext context)
         {
             this.context = context;
+        }
+
+        public bool Exists(Expression<Func<EstadoPrestamo, bool>> filter)
+        {
+            return this.context.estadoPrestamos.Any(filter); 
         }
 
         public List<EstadoPrestamo> GetEntities()

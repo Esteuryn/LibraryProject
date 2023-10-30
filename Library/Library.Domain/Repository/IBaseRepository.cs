@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Library.Domain.Entities;
+using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace Library.Domain.Repository
@@ -12,5 +14,6 @@ namespace Library.Domain.Repository
 
         List<TEntity> GetEntities();
         TEntity GetEntity(int id);
+        bool Exists(Expression<Func<EstadoPrestamo, bool>> filter);
     }
 }
