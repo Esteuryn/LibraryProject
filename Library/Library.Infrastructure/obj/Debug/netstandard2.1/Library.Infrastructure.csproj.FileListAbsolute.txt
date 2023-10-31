@@ -1,0 +1,13 @@
+C:\MyProject\Library\Library.Infrastructure\bin\Debug\netstandard2.1\Library.Infrastructure.deps.json
+C:\MyProject\Library\Library.Infrastructure\bin\Debug\netstandard2.1\Library.Infrastructure.dll
+C:\MyProject\Library\Library.Infrastructure\bin\Debug\netstandard2.1\Library.Infrastructure.pdb
+C:\MyProject\Library\Library.Infrastructure\bin\Debug\netstandard2.1\Library.Domain.dll
+C:\MyProject\Library\Library.Infrastructure\bin\Debug\netstandard2.1\Library.Domain.pdb
+C:\MyProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.csproj.AssemblyReference.cache
+C:\MyProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.AssemblyInfoInputs.cache
+C:\MyProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.AssemblyInfo.cs
+C:\MyProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.csproj.CoreCompileInputs.cache
+C:\MyProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.csproj.CopyComplete
+C:\MyProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.dll
+C:\MyProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.pdb

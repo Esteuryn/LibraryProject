@@ -1,0 +1,9 @@
+C:\MyProject\Library\Library.Application\bin\Debug\netstandard2.1\Library.Application.deps.json
+C:\MyProject\Library\Library.Application\bin\Debug\netstandard2.1\Library.Application.dll
+C:\MyProject\Library\Library.Application\bin\Debug\netstandard2.1\Library.Application.pdb
+C:\MyProject\Library\Library.Application\obj\Debug\netstandard2.1\Library.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProject\Library\Library.Application\obj\Debug\netstandard2.1\Library.Application.AssemblyInfoInputs.cache
+C:\MyProject\Library\Library.Application\obj\Debug\netstandard2.1\Library.Application.AssemblyInfo.cs
+C:\MyProject\Library\Library.Application\obj\Debug\netstandard2.1\Library.Application.csproj.CoreCompileInputs.cache
+C:\MyProject\Library\Library.Application\obj\Debug\netstandard2.1\Library.Application.dll
+C:\MyProject\Library\Library.Application\obj\Debug\netstandard2.1\Library.Application.pdb

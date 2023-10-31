@@ -12,8 +12,8 @@ namespace Library.Domain.Repository
         void Update (TEntity entity);
         void Remove(TEntity entity);
 
-        List<TEntity> GetEntities();
-        TEntity GetEntity(int id);
+        List<TEntity> GetEstadoPrestamos();
+        TEntity GetEstadoPrestamo(int id);
         bool Exists(Expression<Func<EstadoPrestamo, bool>> filter);
     }
 }

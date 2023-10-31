@@ -14,8 +14,8 @@ namespace Library.Infrastructure.Interfaces
         public interface IEstadoPrestamo
         {
             bool Exists(Expression<Func<EstadoPrestamo, bool>> filter);
-            List<EstadoPrestamo> GetEntities();
-            EstadoPrestamo GetEntity(int id);
+            List<EstadoPrestamo> GetEstadoPrestamos();
+            EstadoPrestamo GetEstadoPrestamo(int id);
             void Remove(EstadoPrestamo estadoPrestamo);
             void Save(EstadoPrestamo estadoPrestamo);
             void Update(EstadoPrestamo estadoPrestamo);

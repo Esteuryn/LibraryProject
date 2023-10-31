@@ -1,0 +1,9 @@
+C:\MyProject\Library\Library.Ioc\bin\Debug\netstandard2.1\Library.Ioc.deps.json
+C:\MyProject\Library\Library.Ioc\bin\Debug\netstandard2.1\Library.Ioc.dll
+C:\MyProject\Library\Library.Ioc\bin\Debug\netstandard2.1\Library.Ioc.pdb
+C:\MyProject\Library\Library.Ioc\obj\Debug\netstandard2.1\Library.Ioc.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProject\Library\Library.Ioc\obj\Debug\netstandard2.1\Library.Ioc.AssemblyInfoInputs.cache
+C:\MyProject\Library\Library.Ioc\obj\Debug\netstandard2.1\Library.Ioc.AssemblyInfo.cs
+C:\MyProject\Library\Library.Ioc\obj\Debug\netstandard2.1\Library.Ioc.csproj.CoreCompileInputs.cache
+C:\MyProject\Library\Library.Ioc\obj\Debug\netstandard2.1\Library.Ioc.dll
+C:\MyProject\Library\Library.Ioc\obj\Debug\netstandard2.1\Library.Ioc.pdb

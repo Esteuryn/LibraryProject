@@ -23,12 +23,12 @@ namespace Library.Infrastructure.Repositories
             return this.context.estadoPrestamos.Any(filter); 
         }
 
-        public List<EstadoPrestamo> GetEntities()
+        public List<EstadoPrestamo> GetEstadoPrestamos()
         {
             return context.estadoPrestamos.ToList();
         }
 
-        public EstadoPrestamo GetEntity(int id)
+        public EstadoPrestamo GetEstadoPrestamo (int id)
         {
             return this.context.estadoPrestamos.Find(id);
         }
