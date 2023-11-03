@@ -40,7 +40,7 @@ namespace Library.Api.Controllers
         // POST: api/NumeroCorrelativo
         [HttpPost]
         public ActionResult<NumeroCorrelativo> Post([FromBody] NumeroCorrelativo correlativo)
-        {
+        {   
             numeroCorrelativoRepository.Save(correlativo);
             return CreatedAtAction(nameof(Get), new { id = correlativo.IdNumeroCorrelativo }, correlativo);
         }
