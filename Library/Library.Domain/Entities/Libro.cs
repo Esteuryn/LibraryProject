@@ -22,11 +22,6 @@ namespace Library.Domain.Entities
         public int? Ejemplares { get; set; }
 
         public byte[]? Portada { get; set; }
-
-
-
-
-
-
+        public bool Deleted { get; set; }
     }
 }

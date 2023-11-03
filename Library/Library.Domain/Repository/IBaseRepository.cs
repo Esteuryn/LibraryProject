@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Library.Domain.Entities;
+using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace Library.Domain.Repository
@@ -10,7 +12,8 @@ namespace Library.Domain.Repository
         void Update (TEntity entity);
         void Remove(TEntity entity);
 
-        List<TEntity> GetEntities();
-        TEntity GetEntity(int id);
+        List<TEntity> GetLibros();
+        TEntity GetLibro(int Id);
+        bool Exists(Expression<Func<Libro, bool>> filter);
     }
 }

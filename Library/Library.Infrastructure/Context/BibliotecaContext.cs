@@ -6,9 +6,12 @@ using System.Text;
 
 namespace Library.Infrastructure.Context
 {
-    public class BibliotecaContext : DbContext
+    public class LibraryContext : DbContext
     {
-        public BibliotecaContext(DbContextOptions<BibliotecaContext> options) : base(options);
+        public LibraryContext(DbContextOptions<LibraryContext> options) : base(options)
+        {
+
+        }
 
         public DbSet<Libro> Libros { get; set; }
     }

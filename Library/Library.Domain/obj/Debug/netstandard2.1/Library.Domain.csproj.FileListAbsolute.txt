@@ -7,3 +7,12 @@ C:\Myproject\ItlaLibrary\Library\Library.Domain\obj\Debug\netstandard2.1\Library
 C:\Myproject\ItlaLibrary\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.csproj.CoreCompileInputs.cache
 C:\Myproject\ItlaLibrary\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.dll
 C:\Myproject\ItlaLibrary\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.pdb
+C:\LibraryProject\Library\Library.Domain\bin\Debug\netstandard2.1\Library.Domain.deps.json
+C:\LibraryProject\Library\Library.Domain\bin\Debug\netstandard2.1\Library.Domain.dll
+C:\LibraryProject\Library\Library.Domain\bin\Debug\netstandard2.1\Library.Domain.pdb
+C:\LibraryProject\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\LibraryProject\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.AssemblyInfoInputs.cache
+C:\LibraryProject\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.AssemblyInfo.cs
+C:\LibraryProject\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.csproj.CoreCompileInputs.cache
+C:\LibraryProject\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.dll
+C:\LibraryProject\Library\Library.Domain\obj\Debug\netstandard2.1\Library.Domain.pdb

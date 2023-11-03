@@ -1,0 +1,13 @@
+C:\LibraryProject\Library\Library.Infrastructure\bin\Debug\netstandard2.1\Library.Infrastructure.deps.json
+C:\LibraryProject\Library\Library.Infrastructure\bin\Debug\netstandard2.1\Library.Infrastructure.dll
+C:\LibraryProject\Library\Library.Infrastructure\bin\Debug\netstandard2.1\Library.Infrastructure.pdb
+C:\LibraryProject\Library\Library.Infrastructure\bin\Debug\netstandard2.1\Library.Domain.dll
+C:\LibraryProject\Library\Library.Infrastructure\bin\Debug\netstandard2.1\Library.Domain.pdb
+C:\LibraryProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.csproj.AssemblyReference.cache
+C:\LibraryProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\LibraryProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.AssemblyInfoInputs.cache
+C:\LibraryProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.AssemblyInfo.cs
+C:\LibraryProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.csproj.CoreCompileInputs.cache
+C:\LibraryProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.csproj.CopyComplete
+C:\LibraryProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.dll
+C:\LibraryProject\Library\Library.Infrastructure\obj\Debug\netstandard2.1\Library.Infrastructure.pdb
