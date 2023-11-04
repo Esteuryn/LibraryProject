@@ -11,6 +11,7 @@ using System.Text;
 namespace Library.Infrastructure.Repositories
 {
     public class NumeroCorrelativoRepository : INumeroCorrelativoRepository
+
     {
         private readonly BibliotecaContext context;
 
@@ -82,6 +83,4 @@ namespace Library.Infrastructure.Repositories
             return context.numeroCorrelativos.Find(id);
         }
     }
-
-
 }
