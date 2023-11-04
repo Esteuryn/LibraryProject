@@ -17,37 +17,33 @@ namespace Library.Api.Controllers
             this.numeroCorrelativoRepository = numeroCorrelativoRepository;
         }
 
-        // GET: api/NumeroCorrelativo
-        [HttpGet]
-        public IEnumerable<NumeroCorrelativo> Get()
+        [HttpGet("GetNumeroCorrelativos")]
+        public IActionResult GetNumeroCorrelativos()
         {
             var correlativos = numeroCorrelativoRepository.GetEntities();
-            return correlativos;
+            return Ok(correlativos);
         }
 
-        // GET: api/NumeroCorrelativo/5
-        [HttpGet("{id}")]
-        public ActionResult<NumeroCorrelativo> Get(int id)
+        [HttpGet("GetNumeroCorrelativo/{id}")]
+        public IActionResult GetNumeroCorrelativo(int id)
         {
-            var correlativo = numeroCorrelativoRepository.GetEntity(id);
+            var correlativo = numeroCorrelativoRepository.GetNumeroCorrelativo(id);
             if (correlativo == null)
             {
                 return NotFound();
             }
-            return correlativo;
+            return Ok(correlativo);
         }
 
-        // POST: api/NumeroCorrelativo
-        [HttpPost]
-        public ActionResult<NumeroCorrelativo> Post([FromBody] NumeroCorrelativo correlativo)
-        {   
+        [HttpPost("SaveNumeroCorrelativo")]
+        public IActionResult SaveNumeroCorrelativo([FromBody] NumeroCorrelativo correlativo)
+        {
             numeroCorrelativoRepository.Save(correlativo);
-            return CreatedAtAction(nameof(Get), new { id = correlativo.IdNumeroCorrelativo }, correlativo);
+            return CreatedAtAction(nameof(GetNumeroCorrelativo), new { id = correlativo.IdNumeroCorrelativo }, correlativo);
         }
 
-        // PUT: api/NumeroCorrelativo/5
-        [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] NumeroCorrelativo correlativo)
+        [HttpPut("UpdateNumeroCorrelativo/{id}")]
+        public IActionResult UpdateNumeroCorrelativo(int id, [FromBody] NumeroCorrelativo correlativo)
         {
             if (id != correlativo.IdNumeroCorrelativo)
             {
@@ -58,11 +54,10 @@ namespace Library.Api.Controllers
             return NoContent();
         }
 
-        // DELETE: api/NumeroCorrelativo/5
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        [HttpDelete("RemoveNumeroCorrelativo/{id}")]
+        public IActionResult RemoveNumeroCorrelativo(int id)
         {
-            var correlativo = numeroCorrelativoRepository.GetEntity(id);
+            var correlativo = numeroCorrelativoRepository.GetNumeroCorrelativo(id);
             if (correlativo == null)
             {
                 return NotFound();
@@ -72,5 +67,4 @@ namespace Library.Api.Controllers
             return NoContent();
         }
     }
-
 }
