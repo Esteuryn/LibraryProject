@@ -10,8 +10,20 @@ namespace Library.Infrastructure.Context
     {
         public BibliotecaContext(DbContextOptions<BibliotecaContext> options) : base(options)
         {
-           
         }
-        public DbSet<NumeroCorrelativo> numeroCorrelativos { get; set; }
+
+        public DbSet<NumeroCorrelativo> NumeroCorrelativos { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<NumeroCorrelativo>(entity =>
+            {
+                entity.HasKey(e => e.Id); 
+                                          
+            });
+        }
     }
+
 }
